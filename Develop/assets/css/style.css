@@ -1,13 +1,19 @@
+/* start styling entire page */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* end styling entire page */
 
+/* start styling full body element */
 body {
     background-color: #d9dcd6;
 }
+/* end styling full body element */
 
+/* start styling header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +46,23 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* end styling header */
 
+/* start styling anchor elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* end styling anchor elements */
 
+
+/* start styling paragraph elements */
 p {
     font-size: 16px;
 }
+/* end styling paragraph elements */
 
+/* start styling hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +71,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* end styling hero section */
 
+/* start styling floats */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +83,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* end styling floats */
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* start styling benefit section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +112,14 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end styling benefit section */
+
+/* start styling content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
 .content-section {
     margin-bottom: 20px;
@@ -119,7 +138,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end styling content section */
 
+/* start styling footer */
 footer {
     padding: 30px;
     clear: both;
@@ -130,3 +151,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* end styling footer */
