@@ -7,4 +7,7 @@ I have added semantic HTML elements in places that used to be divs, and added mo
 This is also helping the website with search engine optimization.
 I was also able to clean up CSS by bringing multiple classes together that shared the same styling
 
+Deployed application can be found here:
+https://beccadoan.github.io/refactoring_code/#search-engine-optimization
+
 
